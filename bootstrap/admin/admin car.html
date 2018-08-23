@@ -1,0 +1,167 @@
+<!doctype html>
+<!--[if IE 8]><html class="ie8 lt-ie10"><![endif]-->
+<!--[if IE 9]><html class="ie9 lt-ie10"><![endif]-->
+<!--[if gt IE 9]><!--><html lang="en"><!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="MobileOptimized" content="320">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/slidebar.css">
+      <link rel="icon"  href="image/golo-logo.png">
+          <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+        <!--<link rel="stylesheet" href="css/bootstrap.css">-->
+        <link rel="stylesheet" href="CSS/bootstrap.rtl.full.min.css">
+        <link rel="stylesheet" href="css/bootstrap-rating.css" >
+        <link rel="stylesheet" href="css/star-rating.css" media="all"  type="text/css"/>
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        <link rel="stylesheet" href="css/bootstrap-select.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        <link rel="stylesheet" href="css/style.css">
+    <style>
+      .slideout-menu { left: auto; }
+      .btn-hamburger { left: auto; right: 12px;}
+      .box { height: 1500px; }
+    </style>
+    <title>Cars Settings</title>
+  </head>
+  <body>
+
+    <nav id="menu" class="menu">
+      <a href="#" target="_blank">
+        <header class="menu-header">
+          <span class="menu-header-title">welcome:User</span>
+            <img src="../img/care.jpg" style="max-width: 100%">
+        </header>
+      </a>
+
+      <section class="menu-section">
+        <h3 class="menu-section-title">Showroom Name</h3>
+        <ul class="menu-section-list">
+          <li><a href="#" target="_blank">Trucks</a></li>
+          <li><a href="#" target="_blank">Cars</a></li>
+          <li><a href="#" target="_blank">Requests</a></li>
+          <li><a href="#" target="_blank">Settings</a></li>
+          
+        </ul>
+      </section>
+ 
+    </nav>
+
+    <main id="panel" class="panel nomargin">
+      <header class="panel-header">
+        <button class="btn-hamburger js-slideout-toggle"></button>
+        <h1 class="title text-center">Cars Settings </h1>
+      </header>
+
+        <section id="edit-branch">
+            <div class="container">
+                     <div class="form-group">
+                          <div class="col-xs-12 ">
+                                    <table class="table table-bordered ">
+                                    <thead>
+                                      <tr>
+                                        <th>Numbers</th>
+                                        
+                                        <th>Control</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td> <input type="text" class="form-control"  id="number"></td>
+                                        
+                                        <td><button type="submit" class="btn btn-success "><strong>Edit</strong></button>
+                                        <button type="submit" class="btn btn-danger "><strong>Delete</strong></button></td>
+                                      </tr>
+                                    
+                            
+                                    </tbody>
+                                  </table>
+                                <form>
+                              <div class="row">
+                              <div class="col-xs-12 col-md-6">
+                                  
+                                    <div class="form-group">
+                                        <label for="number"> Brand</label>
+                                        <input type="text" class="form-control"  id="number">
+                                    </div>
+                                   <div class="form-group">
+                                        <label for="number">  Model</label>
+                                        <input type="text" class="form-control"  id="number">
+                                    </div>
+                              </div>
+                              <div class="col-xs-12 col-md-6">
+                              <div class="form-group">
+                                        <label for="number"> Case</label>
+                                        <input type="text" class="form-control"  id="number">
+                                    </div>  
+                                  <div class="form-group">
+                                        <label for="number"> Price</label>
+                                        <input type="text" class="form-control"  id="number">
+                                    </div>
+                                    
+                              </div>
+                                   <div class="col-xs-12 col-md-6">
+                              <div class="form-group">
+                                        <label for="number"> Model Year</label>
+                                        <input type="text" class="form-control"  id="number">
+                                    </div>  
+       
+                              </div>
+                    
+                              <div class=""></div>
+                              </div>
+                   
+                                    <button type="submit" class="btn btn-info "><strong>Add</strong></button><br><br>
+                                    
+                                    <div class="col-xs-12 col-md-6">
+                                          <label for="image">Picture 1   </label>
+                                             <img src="../img/care.jpg" class="img-responsive img-circle">
+                                            <div class="form-group">
+                                                <div class="fileinput fileinput-new" data-provides="fileinput">
+                                                  <input type="file"  />
+
+                                                  </div>
+                                            </div>
+                                   </div>
+                                </form>
+                           
+                              </div>
+                          </div>
+                
+            </div>
+        </section>
+    </main>
+      <script>
+function myFunction() {
+    var x = document.getElementById("myFile");
+    x.disabled = true;
+}
+</script>
+    <script src="js/slideout.js"></script>
+    <script>
+      window.onload = function() {
+        var slideout = new Slideout({
+          'panel': document.getElementById('panel'),
+          'menu': document.getElementById('menu'),
+          'side': 'right'
+        });
+
+        document.querySelector('.js-slideout-toggle').addEventListener('click', function() {
+          slideout.toggle();
+        });
+
+        document.querySelector('.menu').addEventListener('click', function(eve) {
+          if (eve.target.nodeName === 'A') { slideout.close(); }
+        });
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+/*index page*/
+.border-left {
+    border-bottom-left-radius: initial;
+    border-top-left-radius: initial;
+ 
+    border-bottom-right-radius: 44px;
+    border-top-right-radius: 44px;
+
+}
+
+#doc-specialist button {
+    border-top-right-radius: initial;
+    border-bottom-right-radius: initial;
+    border-top-left-radius: 44px;
+    border-bottom-left-radius: 44px;
+}
+#doc-specialist button:hover {
+    border-top-right-radius: 44px;
+    border-bottom-right-radius: 44px;
+}
+@media (min-width: 300px) and (max-width: 991px) { 
+#doc-specialist button {
+    border-top-left-radius: 0px;
+     border-bottom-left-radius: 0px; 
+}
+    .border-left {
+    border-bottom-right-radius: 44px;
+    border-top-right-radius: 0px; 
+    border-bottom-left-radius: 44px;
+}
+}
+/*end index*/
+#doctors .img {
+    right: initial;
+    left: -7px;
+    
+}

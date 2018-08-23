@@ -1,0 +1,306 @@
+body{
+    background-color: #f3f3f3;
+   
+    font-family: 'Oswald', sans-serif;
+}
+.sticky {
+  position:fixed;
+  top:0;
+  z-index: 9;
+  width: 100%;
+  box-shadow: 1px 1px 10px #808080b8;  
+}
+.sticky + .content{padding-top: 150px;}
+/* start upper-bar */
+
+.upper-bar{
+    background: #610909;
+    color:#fff;
+    text-align: center;
+}
+.upper-bar .upper-r{
+    margin: 10px 0 ;
+}
+.upper-bar .upper-r a{
+    color: #fff;
+    text-decoration: none;
+}
+.upper-bar .upper-r a:hover{
+    color: #ffffffad;
+    transition: .5s ease;
+}
+.upper-bar .upper-l{
+    margin: 10px 0 ;
+}
+.upper-bar .upper-r > span{
+    padding: 5px;
+}
+
+/* end upper-bar */
+
+/* start navbar */
+
+.nav-bar1 { background: #fff;}
+.nav-container{
+    background-color:#fff;
+}
+
+.bg-light{
+     background: #FFFFFF !important;
+     color:#D42325 !important;
+     border-top: 1px solid #fff;
+}
+.navbar-expand-lg .navbar-nav{
+    width: 100%;
+}
+.navbar-expand-lg .navbar-nav li{
+    margin: 0 auto;
+}
+@media (max-width: 992px){
+.navbar-expand-lg .navbar-nav li{
+     margin-left: 0
+    }}
+.navbar-expand-lg .navbar-nav .nav-link{
+     color: #000000e0;
+     padding: 20px 10px;
+     font-size: 23px;
+    transition: .5s ease
+}
+@media (max-width: 1200px){
+.navbar-expand-lg .navbar-nav .nav-link{
+     padding: 20px 5px;
+    font-size: 18px;
+    }}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+   color: #80808099
+}
+
+
+@media (max-width: 993px){
+.navbar-collapse{
+   margin-left: 25px;
+    }}
+/* end navbar */
+
+/* start showroom detailes */
+
+.showroom-detailes{
+    margin-top: 50px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.5);
+    padding: 25px;
+}
+.showroom-name {
+    background: -moz-linear-gradient(top,  #ff0000 0%, #bc0000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff0000), color-stop(100%,#bc0000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff0000 0%,#bc0000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff0000 0%,#bc0000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff0000 0%,#bc0000 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ff0000 0%,#bc0000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#bc0000',GradientType=0 );
+    color:#fff;
+    width: 300px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    -webkit-box-shadow: 0 1px 2px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 2px 1px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 576px){
+.showroom-name{
+   width: 100%;
+    }}
+
+.showroom-img{
+    margin-top: 45px;
+   
+}
+.showroom-img img{
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-box-shadow: 0 1px 2px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 2px 1px rgba(0,0,0,0.5);
+}
+.showroom-detailes p{
+    margin-top: 40px;
+    color: #000;
+}
+hr{
+        border-top: 1px solid rgba(225,225,225,.8);
+    margin-top: 60px;
+}
+
+/* end showroom detailes */
+
+/* start cars gallery */
+.cars-gal{
+    background: #fff;
+    border: 1px solid #8080805e;
+    padding: 5px;
+    margin: 100px auto;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.cars-gal h1 {
+    text-align: center;
+    color: #D42325;
+    padding-left: 10px;
+    margin: 50px 0;
+    font-weight: bold;
+}
+
+
+.car-card {
+    margin-top: 10px;
+    color: #000;
+    background: #fff;
+    border: 1px solid #8080808f;
+}
+
+@media (max-width: 1200px){
+.car-card{
+   margin:5px 14px;
+    }}
+
+.car-card img{
+    width: 100%
+ 
+}
+.info{
+    margin-top: 7px;
+    padding: 6px;
+    font-weight: bold;
+}
+.car-card .vechile-type{
+    border-bottom: none;
+    color: #fff;
+    background-color: #000;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 13px;
+    margin-top: -5px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.5);
+}
+.car-card p{
+    max-width: 100%;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    overflow: hidden
+}
+.car-card .p2{
+    font-size: 25px;
+    color: #D42325
+}
+.car-card a{
+    color: gray;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.car-card a:hover{
+    text-decoration: none;
+    color: #bd1010;
+    transition: .5s ease;
+}
+
+/* end cars gallery */
+/* start footer */
+
+.site-footer{
+    padding: 70px 0;
+    background-color:#610909;
+    color: #fff;
+    font-size: 13px;
+}
+.footer .site-info h2{
+    margin-bottom: 30px;
+}
+.footer .site-info h2 > span{
+    font-size: 50px;
+}
+.footer .site-info h2 span:first-child{
+
+    color: #08526d;
+    font-weight: bold;
+}
+.footer .site-info h2 span:last-child{
+    color: red;
+    font-weight: bold;
+}
+.footer .site-info p{line-height: 1.8;color:#727272;}
+.site-footer .site-info a{color:#fff;font-size: 14px;text-decoration: none}
+.site-footer .site-info a:hover{color: #80808099;transition: .5s ease}
+.footer .site-info a:before{
+    font-family: FontAwesome;
+    content: " ";
+;
+            font-size: 105x;
+    display: inline-block;
+font-weight: 700;
+    margin-right: 5px;
+}
+.footer .helpful-links h2,
+.footer .contact h2
+{
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color:#08526d; 
+}
+.footer .contact ul li{
+    margin: 5px 0;
+}
+.site-footer .contact .list-unstyled .fa{
+    margin-right: 5px;
+}
+.site-footer .helpful-links  .col-md-3 .right-list{
+    margin-left: 60px;
+}
+.site-footer .helpful-links ul li{font-size: 15px;}
+.site-footer .helpful-links ul li a{color: #fff}
+.site-footer .helpful-links ul li a:hover{color:#80808099;transition: .5s ease;text-decoration: none}
+.site-footer .helpful-links ul li:before {
+    font-family: FontAwesome;
+    content: '\f054';
+     margin-right:5px;
+    font-size: 10px;
+}
+@media (max-width: 768px){
+
+  .site-footer .helpful-links  .col-md-3 .right-list  {
+      margin-left: -1px;
+}
+}
+
+
+
+
+/* end footer  */
+
+/* start copyright  */
+.copy-right {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.copy-right p{
+    margin-bottom: 0 !important;
+    color: #808080;
+}
+
+/* end copyright  */
+

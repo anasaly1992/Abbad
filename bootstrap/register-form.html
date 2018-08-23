@@ -1,0 +1,253 @@
+<!DOCTYPE html5>
+<html>
+<head>
+<title>Register Form</title>    
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       <!-- <link rel="stylesheet" href="css/bootstrap-rtl.min.css">-->
+       <link rel="stylesheet" href='css/bootstrap.min.css'>
+        <link rel="stylesheet" href="css/boot.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link rel="stylesheet" href="css/dscountdown.css">
+        <link rel="stylesheet" href="css/register-form.css">
+        <!--<link rel="stylesheet" href="css/rtl.css">-->
+    
+</head>
+<body>
+    
+           <header class="nav-bar">
+        <!-- start upper-bar-->
+        
+        <div class="upper-bar">
+            <div class="container">
+                <div class="row">
+                      <div class="col-md upper-l text-md-left ">
+                           Dealer / Franchise Rigester
+                      </div>
+                      <div class="col-md upper-r text-md-right">
+                           <a href="login-form.html">Login </a> / <a href="register-form.html">Rigester</a>
+                      </div>
+                </div>
+            </div>
+        </div>
+         <!-- end upper-bar-->
+        
+         <!-- start navbar -->
+    <div class="nav-bar1">
+        <div class="container nav-container">
+          <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top bg-light">
+                <img src="img/logo.png" width="150px" height="auto"/>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                  <li class="nav-item ">
+                                    <a class="nav-link"
+                                       href="index.html">Home </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="car-category.html" >Vechiles</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link " href="show-rooms.html" > showrooms</a>
+                                  </li>
+                                     <li class="nav-item">
+                                    <a class="nav-link" href="Insurance-Company.html" >Insurance Offices</a>
+                                  </li>
+                                     <li class="nav-item">
+                                    <a class="nav-link " href="#">Tenders</a>
+                                  </li>
+                                     <li class="nav-item">
+                                    <a class="nav-link " href="#">Auction</a>
+                                  </li>
+                                     <li class="nav-item">
+                                    <a class="nav-link last-link" href="#">Luxury</a>
+                                  </li>
+                            </ul>
+                     </div>
+           </nav>
+         </div>
+        </div></header>
+           
+         <!-- end navbar -->
+    
+   <!-- start register-form-->
+    
+     <div class="container">
+    <form class="form-horizontal" role="form" method="POST" action="/register">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h2>Register New User</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row icon ">
+            <div class="col-md-3 field-label-responsive">
+                <label for="name">Name</label>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                        <div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-user"></i></div>
+                        <input type="text" name="name" class="form-control" id="name"
+                               placeholder="John Doe" required autofocus>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-control-feedback">
+                        <span class="text-danger align-middle">
+                            <!-- Put name validation error messages here -->
+                        </span>
+                </div>
+            </div>
+        </div>
+        <div class="row icon">
+            <div class="col-md-3 field-label-responsive">
+                <label for="email">E-Mail Address</label>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                        <div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-envelope"></i></div>
+                        <input type="text" name="email" class="form-control" id="email"
+                               placeholder="you@example.com" required autofocus>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-control-feedback">
+                        <span class="text-danger align-middle">
+                            <!-- Put e-mail validation error messages here -->
+                        </span>
+                </div>
+            </div>
+        </div>
+        <div class="row icon">
+            <div class="col-md-3 field-label-responsive">
+                <label for="password">Password</label>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group has-danger">
+                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                        <div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-unlock-alt"></i></div>
+                        <input type="password" name="password" class="form-control" id="password"
+                               placeholder="Password" required>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-control-feedback">
+                        <span class="text-danger align-middle">
+                            <i class="fa fa-close"> Example Error Message</i>
+                        </span>
+                </div>
+            </div>
+        </div>
+        <div class="row icon">
+            <div class="col-md-3 field-label-responsive">
+                <label for="password">Confirm Password</label>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                        <div class="input-group-addon" style="width: 2.6rem">
+                            <i class="fa fa-repeat"></i>
+                        </div>
+                        <input type="password" name="password-confirmation" class="form-control"
+                               id="password-confirm" placeholder="Password" required>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <button type="submit" class="btn btn-success"><i class="fa fa-user-plus"></i> Register</button>
+            </div>
+        </div>
+    </form>
+</div>
+   
+    
+   <!-- end register-form-->
+    
+     <!-- start footer -->
+        
+       <div class="site-footer">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-6">
+                <div class="site-info">
+                
+                <h2><span>Alabbad</span> <span style="color:#D42325 ">Auto</span></h2>
+                <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only it to make a type specimen book. It has survived not only</p>
+                <a href="#">Read More</a>
+                </div>
+                
+                </div>
+             <div class="col-md-3">
+                <div class="helpful-links">
+                    <h2>Helpful Links</h2>
+                    <div class="row">
+                    <div class="col-md-3">
+                        <ul class="list-unstyled">
+                             <li><a href="index.html">Home</a> </li>
+                             <li><a href="show-rooms.html">Showroom</a> </li>
+                             <li><a href="#">Auction</a> </li>
+                           
+                        
+                        </ul>
+                        </div>
+                          <div class="col-md-3">
+                        <ul class="list-unstyled right-list">
+                             <li><a href="#">Vechile</a> </li>
+                             <li><a href="#">Insurance Office</a> </li>
+                             
+                        
+                        </ul>
+                        
+                        
+                        </div>
+                    </div>
+                
+                
+                </div>
+                
+                </div>
+                <div class="col">
+                <div class="contact">
+                <h2>Contact Us</h2>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-map-marker"></i> <span> 301 alabad street 5b</span> </li>
+                         <li><i class="fa fa-phone"></i> <span> 009601155151515</span> </li>
+                        <li><i class="fa fa-envelope"></i> <span>Example@mail.com</span></li>
+                  
+                    </ul>
+                
+                </div>
+                </div>
+            </div>
+            </div>
+          
+        </div>
+         <div class="copy-right">
+            <p>Copyright © 2018 Hyper Design , All Rights Reserved.</p> 
+           
+           </div>
+        
+        
+        
+        
+        <!-- end footer -->
+    
+         <script src='js/jquery-3.2.1.min.js'></script>
+    <script src="js/navbar.js"></script>
+         <script src='js/popper.min.js'></script>
+         <script src='js/bootstrap.min.js'></script>
+    
+</body>
+</html>

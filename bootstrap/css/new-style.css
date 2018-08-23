@@ -1,0 +1,716 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{font-family: 'Oswald', 'sans-serif';}
+.sticky {
+  position:fixed;
+  top:0;
+  z-index: 9;
+  width: 100%;
+  box-shadow: 1px 1px 10px #808080b8;
+}
+
+a {
+    cursor: pointer;
+    transition: .5s ease;
+}
+a:hover{text-decoration: none;}
+
+h1,h2,h3{font-weight: bold}
+/* start upper-bar */
+
+.upper-bar{
+    background: #610909;
+    color:#fff;
+    text-align: center;
+}
+.upper-bar a{color: #fff}
+.upper-bar a:hover{color: #ffffffad}
+.upper-bar a:active{color: #ffffffad}
+.upper-bar form{display: inline-block;margin-left: 15px}
+.upper-bar form select{background:#D42325;color: #fff }
+.upper-bar .upper-r{ margin: 10px 0 ;}
+.upper-bar .upper-r a{color: #fff;text-decoration: none;}
+.upper-bar .upper-r a:hover{color: #ffffffad;transition: .5s ease;}
+.upper-bar .upper-l{margin: 10px 0 ;}
+.upper-bar .upper-r > span{padding: 5px;}
+
+/* end upper-bar */
+
+/* start navbar */
+
+.nav-bar1 { background: #fff;}
+.nav-container{
+    background-color:#fff;
+}
+
+.bg-light{
+     background: #FFFFFF !important;
+     color:#D42325 !important;
+     border-top: 1px solid #fff;
+}
+.navbar-expand-lg .navbar-nav{width: 100%;}
+.navbar-expand-lg .navbar-nav li{margin: 0 auto;}
+@media (max-width: 992px){
+.navbar-expand-lg .navbar-nav li{
+     margin-left: 0
+    }}
+.navbar-expand-lg .navbar-nav .nav-link{
+     color: #000000e0;
+     padding: 20px 10px;
+     font-size: 23px;
+}
+@media (max-width: 1200px){
+.navbar-expand-lg .navbar-nav .nav-link{
+     padding: 20px 5px;
+    font-size: 18px;
+    }}
+.navbar-expand-lg .navbar-nav .nav-link:hover{color: #80808099}
+
+
+@media (max-width: 993px){
+.navbar-collapse{
+   margin-left: 25px;
+    }}
+/* end navbar */
+
+/* start vechile-features*/
+
+.vechile-features{
+    margin: 60px auto;
+    padding-top: 1px;
+    background-color: #000;
+    width: 730px;
+    height: 250px;
+    border: 1px solid #ffffff1a;
+    border-radius: 2px
+  
+}
+ @media (max-width: 768px){
+
+    .vechile-features {
+        width: 80%
+    }}
+ @media (max-width: 767px){
+
+    .vechile-features {
+        width: 338px;
+        height: 440px;
+    }}
+.vechile-features .form-control {
+    border-radius: 2px;
+}
+.vechile-features .navbar-form .input-group {
+    width: 90%;
+    margin: 2px auto;
+}
+@media (max-width:767px){
+    .vechile-features .navbar-form .input-group{
+        width: 90%;
+    }
+}
+.vechile-features .search-bar{
+    margin-top: 50px;
+    text-align:center;
+}
+ @media (max-width: 993px){
+
+    .vechile-features .search-bar {
+        margin-top: 30px;
+    }}
+
+
+.vechile-features .search-bar i:hover{
+    background-color: #eee;
+    color: #D42325;
+}
+.vechile-features .select-option{
+    text-align: center;
+    font-size: 13px;
+    margin: 30px auto
+}
+
+.vechile-features .select-option .row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.vechile-features select {
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+}
+
+ @media (max-width: 993px){
+     
+    .vechile-features select {
+        margin-top: 10px;
+        width: 75px;
+    }}
+ @media (max-width: 767px){
+     
+    .vechile-features select {
+        display: block;
+        width: 80%;
+        margin: 5px auto;
+    }}
+
+.carousel {
+    height: 100%;
+}
+.carousel .carousel-inner .carousel-item{
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.slider{height: 480px !important;}
+@media (max-width: 767px){
+     
+   .slider {
+        height: 660px !important
+    }}
+@media (max-width: 546px){
+     
+   .carousel .carousel-inner .carousel-item {
+        height: 660px !important
+    }}
+.carousel .carousel-inner .carousel1{
+    background-image: url('../img/bmw6-1.jpg');
+    background-size: cover;
+    height: 800px
+}
+.carousel .carousel-inner .carousel2{
+    background-image: url('../img/bmw7-1.jpg');
+    background-size: cover;
+    height: 800px
+}
+.carousel .carousel-inner .carousel3{
+    background-image: url('../img/bmw2-1.jpg');
+    background-size: cover;
+    height: 800px
+}
+.carousel .carousel-inner .carousel-item {
+    
+}
+.carousel .overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    z-index: 2;
+}
+.carousel .overlay h2{
+    color: #D42325;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.carousel .overlay h1{
+    color: #fff;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: -35px;
+}
+@media (max-width: 576px){
+
+.carousel .overlay h1{
+  margin-left: 0;
+    text-align: center;
+    }}
+
+.vechile-features .button-search {
+    text-align: center;
+}
+.vechile-features .button-search .btn{
+    border-radius: 0;
+    width: 90%;
+    background-color: #D42325;
+    border: none;
+    color: #fff;
+    transition: .5s ease;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.vechile-features .button-search .btn:hover{
+    background: #8a0808;
+}
+.vechile-features .button-search .btn:active{
+    background: #000;
+}
+.vechile-features a{
+    text-decoration: none;
+}
+
+
+/* end vechile-features */
+/* start Last Added Cars */
+
+.last-added {
+ background-color: #F3F3F3;
+    position: relative;
+    overflow: hidden;
+    border-top: 1px solid gray;
+  
+}
+
+.last-added h2{
+    color: #D42325;
+    margin: 50px auto;
+    height: 60px;
+    width: 390px;
+    font-size: 50px;
+    text-align: center;
+}
+.last-added .owl-carousel{
+    margin-bottom: 40px;
+}
+.owl-carousel .owl-drag .owl-item{
+   width:218px !important;
+    margin:5px
+}
+
+.last-added .owl-carousel .item{
+     color: #000;
+    background: #fff;
+    border: 1px solid #8080808f;
+    margin: 5px;
+}
+@media (max-width:767px){
+.last-added .owl-carousel .item{
+   width: 70%;
+    margin: 0 auto;
+}}
+.last-added .owl-carousel .item img{
+    height: 160px;
+}
+ .last-added .owl-carousel .item .info{
+    margin-top: 3px;
+    padding: 6px;
+    font-weight: bold;
+}
+
+.item .vechile-type{
+    border-bottom: none;
+    color: #fff;
+    background-color: #000;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 13px;
+    margin-top: -5px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.5);
+        
+    
+}
+.item p{
+    max-width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.item .p2{
+    font-size: 25px;
+    color: #D42325
+}
+.item a{
+    color: gray;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+}    
+
+.item a:hover{
+    color:#bd1010;
+}
+
+/* end Last Added Cars*/
+
+/* start related-links */
+
+.most-p {
+   background: #D42325; 
+    padding: 10px 20px;
+}
+
+.most-p button{
+    background-color: #fff;
+    color: #D42325;
+    border-radius: 2px;
+    transition: .5s ease;
+    margin: 20px 0 0 20px;
+}
+
+.most-p button:hover{
+    color:#D42325;
+    background: #ffffffad;
+    cursor: pointer;
+}
+.most-p h2,.most-p p{
+    color: #fff;
+    margin: 20px 0 0 20px;
+}
+
+.most-img .img{
+    width: 100%;
+    height: 250px;
+}
+.most-img .img img{
+    width: 100%;
+    height: 100%;
+}
+.related-links{
+    background-color: #000;
+    overflow: hidden;
+  
+}
+
+
+.related-links .related{
+    padding: 0;
+    
+}
+.related-links .related-h2{
+   margin: 50px auto;
+}
+.related-links .h2-related{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-size: 50px;
+    margin: 0px auto;
+}
+
+.last-p {
+    background: #fff; 
+    padding: 10px 20px;
+   
+}
+
+
+.last-p button:hover{
+    color:#fff;
+    background: #8a0808;
+    cursor: pointer;
+   
+}
+
+@media (max-width: 993px){
+
+     .most-p button{
+        margin-bottom: 25px;
+    }}
+
+.last-p h2,.last-p p{
+    color: #000;
+    margin: 20px 0 0 20px;
+}
+.last-img .img{
+    width: 100%;
+    height: 250px;
+}
+.last-img .img img{
+    width: 100%;
+    height: 100%;
+}
+.last-p button{
+    margin: 20px 0 0 20px;
+    background-color: #fff;
+    color: #D42325;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #D42325;
+    transition: .5s ease
+}
+@media (max-width: 993px){
+
+    .last-p button{
+        margin-bottom: 25px;
+    }}
+
+.related-links .footer{
+    margin-bottom: 50px;
+    
+}
+
+@media (max-width: 993px){
+    .last-img{
+        order: 2;
+    }}
+@media (max-width: 993px){
+
+    .last-p{
+        order: 1;
+    }}
+/* end related-links */
+
+
+
+/* start sale your vechile */
+.sale-yours {
+    background-color: #fff; 
+    border-top: 1px solid #8080805e;
+    border-bottom: 1px solid #8080805e;
+}
+
+.sale-yours .row{
+    display: flex;
+}
+.sale-yours button{
+    background:#D42325;
+    color: #fff;
+    transition: .5s ease;
+    cursor: pointer
+}
+.sale-yours button:hover{
+    background: #8a0808
+}
+
+.sale-yours button:active{
+    background: #000
+}
+.sale-your-l {
+    order: 2;
+}
+@media (max-width: 993px){
+
+.sale-your-l {
+    text-align: center;
+    }}
+@media (max-width: 993px){
+
+.sale-your-l .sale-yours-contact{
+    margin: 35px auto;
+    }}
+.sale-your-r {
+    order: 1;
+}
+.sale-your-l h2 {
+    color: #D42325;
+    font-size: 45px;
+    margin-top: 50px;
+}
+.sale-your-l p{
+    color: #000000c4;
+    font-size: 17px;
+    margin: 40px 0 40px 0;
+} 
+.sale-your-l .sale-yours-contact{
+    border: 2px solid #D42325;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 28px;
+    width: 100px;
+    font-weight: bold;
+    transition: .5s ease;
+    background-color: #D42325;
+}
+.sale-your-l .sale-yours-contact:hover{
+    background: #fff;
+    color: #D42325;
+    cursor: pointer;
+
+}
+.sale-your-l .sale-yours-contact:hover a{
+    color: #D42325;
+    text-decoration: none;
+}
+.sale-your-l .sale-yours-contact a{
+    color: #fff;
+    padding: 3px;
+}
+.sale-your-r {
+    width: 100%;
+    height: 100%;
+}
+.sale-your-r img{
+    width: 100%;
+    height: 100%;
+}
+/* end sale your vechile */
+
+/* start Insurance & fairs  */
+.insurance-fairs-offers {
+    width: 100%;
+    background-color: #F3F3F3
+}
+
+.insurance-fairs-offers .fairs,.insurance-fairs-offers .insurance{
+    background-color: #fff;
+    margin: 50px 0 50px 0;
+    border-radius: 5px;
+    border: 1px solid #8080805e;
+    text-align: center;
+    color: #000;
+}    
+.insurance-fairs-offers .fairs .img,.insurance-fairs-offers .insurance .img{
+    width: 100%;
+    height: 230px;
+}
+.insurance-fairs-offers .fairs img,.insurance-fairs-offers .insurance img{
+    width: 90%;
+    height: 100%;
+}
+.insurance-fairs-offers .fairs button,.insurance-fairs-offers .insurance button{
+    background-color: #D42325;
+    color:#fff;
+    border-radius: 2px;
+    transition: .5s ease;
+    margin-bottom: 6px;
+    border-radius: 3px;
+}
+.insurance-fairs-offers button:hover{
+    background-color: #8a0808;
+    cursor: pointer;
+}
+.insurance-fairs-offers h2{
+    color: #D42325;
+    margin: 30px 0 30px 0;
+}
+.insurance-fairs-offers p{
+    color: #000000c4;
+    margin-top: 20px;
+}
+/* end Insurance & fairs  */
+
+/* start brands carousel  */
+
+.brand-carousel {
+    background-color: #fff;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.brand-carousel h2{
+    color: #000;
+    text-align: center;
+    margin: 50px 0;
+    font-size: 50px;
+}
+.brand-carousel .owl-carousel{
+    margin: 50px auto;
+}
+.brand-carousel .owl-carousel div img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+/* end brands carousel  */
+
+/* start footer */
+
+.site-footer{
+    padding: 70px 0;
+    background-color:#610909;
+    color: #fff;
+    font-size: 13px;
+}
+.footer .site-info h2{
+    margin-bottom: 30px;
+}
+.footer .site-info h2 > span{
+    font-size: 50px;
+}
+.footer .site-info h2 span:first-child{
+
+    color: #08526d;
+    font-weight: bold;
+}
+.footer .site-info h2 span:last-child{
+    color: red;
+    font-weight: bold;
+}
+.footer .site-info p{
+    line-height: 1.8;
+    color:#727272;
+}
+.footer .site-info a{
+    color:#08526d;
+    font-size: 14px;
+    font-weight: bold
+    
+}
+.footer .site-info a:before{
+    font-family: FontAwesome;
+    content: " ";
+;
+            font-size: 105x;
+    display: inline-block;
+font-weight: 700;
+    margin-right: 5px;
+}
+.footer .helpful-links h2,
+.footer .contact h2
+{
+    
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color:#08526d; 
+}
+.footer .contact ul li{
+    margin: 5px 0;
+}
+.site-footer .contact .list-unstyled .fa{
+    margin-right: 5px;
+}
+.site-footer .helpful-links  .col-md-3 .right-list{
+    margin-left: 60px;
+}
+.site-footer .helpful-links ul li{
+    font-size: 15px;
+    width: 100px;
+}
+.site-footer .helpful-links ul li a{color: #fff}
+.site-footer .helpful-links ul li a:hover{color: #80808099;transition: .5s ease}
+.site-footer .helpful-links ul li:before {
+    font-family: FontAwesome;
+    content: '\f054';
+     margin-right:5px;
+    font-size: 10px;
+}
+@media (max-width: 768px){
+
+  .site-footer .helpful-links  .col-md-3 .right-list  {
+      margin-left: -1px;
+}
+}
+
+.site-footer  .site-info a{color: #fff;text-decoration: none}
+.site-footer  .site-info a:hover{transition: .5s ease;color:#80808099 }
+
+/* end footer  */
+
+/* start copyright  */
+.copy-right {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.copy-right p{
+    margin-bottom: 0 !important;
+    color: #808080;
+}
+
+/* end copyright  */
+
+

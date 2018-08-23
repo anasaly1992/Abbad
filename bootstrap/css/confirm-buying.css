@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{background-color: #f3f3f3;font-family: 'Oswald', 'sans-serif'}
+
+/* start upper-bar */
+
+.upper-bar{
+    background: #000;
+    color:#fff;
+    text-align: center;
+}
+.upper-bar .upper-r{
+    margin: 10px 0 ;
+}
+.upper-bar .upper-l{
+    margin: 10px 0 ;
+}
+.upper-bar .upper-r > span{
+    padding: 5px;
+}
+
+/* end upper-bar */
+
+/* start navbar */
+.nav-container{
+    background-color:#fff;
+}
+.bg-light{
+     background: #FFFFFF !important;
+     color:#D42325 !important;
+     border-top: 1px solid #fff;
+     width: 1125px;
+     margin:0 auto;
+}
+@media (max-width: 1200px){
+.bg-light {
+   width: 1000px;
+    }}
+@media (max-width: 993px){
+.bg-light {
+   width: 800px;
+    }}
+@media (max-width: 768px){
+.bg-light {
+   width: 367px;
+    }}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #D42325;
+     padding: 20px 10px;
+    font-size: 19px
+}
+.navbar-expand-lg .navbar-nav .nav-link:after{
+   content: " | ";
+    padding-left: 13px;   
+}
+.navbar-expand-lg .navbar-nav .last-link:after {
+    content:' ';
+}
+@media (max-width: 1200px){
+.navbar-expand-lg .navbar-nav .nav-link:after {
+    content: " | ";
+    padding-left: 1px;
+    }}
+@media (max-width: 1200px){
+.navbar-expand-lg .navbar-nav .nav-link{
+     padding: 20px 5px;
+    font-size: 18px;
+    }}
+@media (max-width: 1200px){
+.navbar-expand-lg .navbar-nav .last-link:after{
+      content:' ';
+    }}
+@media (max-width: 993px){
+.navbar-expand-lg .navbar-nav .nav-link:after{
+      content:' ';
+    margin-left: 10px;
+    }}
+@media (max-width: 993px){
+.navbar-collapse{
+   margin-left: 25px;
+    }}
+
+/* end navbar */
+
+/* start buying-form */
+
+.buying-form {
+    width: 45%;
+    background-color: #fff;
+    margin: 80px auto;
+    overflow: hidden;
+    border: 1px solid #8080805e;
+}
+@media (max-width: 1200px){
+.buying-form{
+   width: 70%;
+    }}
+@media (max-width: 556px){
+.buying-form{
+   width: 90%;
+    }}
+
+.buying-form .brand {width: 50%;text-align: center;margin: 30px auto;}
+.buying-form .model {width: 30%;text-align: center;margin: 30px auto;}
+
+.buying-form .have-chosen {
+    color: red;
+    text-align: center
+}
+
+.car-features .row {
+    max-width: 90%;
+    margin: 20px auto;
+    border-bottom: 1px solid #BCBEC0;
+}
+
+.btn-danger {
+    display: block;
+    margin: 50px auto;
+}
+/* end buying-form */

@@ -1,0 +1,96 @@
+/* START GENERAL */
+body{font-family: 'cairo'}
+.navbar-expand-lg .navbar-nav li {margin: inherit}
+.site-footer .site-info a{color: #fff;transition: .5s ease;text-decoration: none}
+.site-footer .site-info a:hover{color: #80808099}
+.site-footer .helpful-links a {text-decoration: none} 
+.site-footer .helpful-links a:hover{transition: .5s ease;color:#80808099 }
+
+
+/* END GENERAL */
+
+
+/* START HOME PAGE */
+
+.carousel .overlay h1 {margin-right: 40px}
+.carousel .overlay h2 {margin-right: 40px}
+.upper-bar .upper-r {text-align: right !important}
+.upper-bar .upper-l {text-align: left !important}
+@media (max-width:768px){
+    .upper-bar .upper-l , .upper-bar .upper-r {
+        text-align: center !important 
+    }
+}
+.most-p h2, .most-p p{color: #fff;margin: 20px 20px 0 0;}
+.most-p button,.last-p button{ margin: 20px 20px 20px 0;}
+.last-p h2, .last-p p{margin:20px 20px 0 0 }
+.site-footer{direction:rtl}
+.site-footer .helpful-links ul li:after {
+    font-family: FontAwesome;
+    content: '\f053';
+     margin-right:-5px;
+    font-size: 10px;
+}
+.site-footer .helpful-links ul li:before{content: ' ';padding-left: 5px;}
+.sale-yours{direction: rtl}
+.related-links .row{direction: rtl}
+
+/* END HOME PAGE */
+
+
+/* start car */
+
+.car-description{direction: rtl}
+
+/* end car */
+
+/* start Insurance Company */
+
+.showroom-detailes{direction: rtl}
+
+/* end Insurance Company */
+
+/* start contact us  */
+.contact-us .contact{direction: rtl}
+.send-message {direction: rtl}
+
+/* end contact us  */
+
+/* start blogs */
+
+.blogg{direction: rtl}
+.categories{margin-left: 50px;margin-right: 0};
+.categories ul{padding-right: 0 !important}
+/* end blogs  */
+
+/* start blog  */
+
+.comments{direction:rtl}
+.comments p{float: right}
+.add-comment .btn{display: inline !important}
+
+/* end blog  */
+
+/* start buying form */
+.buying-form{direction: rtl}
+.select-type{padding-right: 20px}
+.select-type form label{text-align: right}
+
+/* end buying form */
+
+/* start confirm buying */
+
+.car-features .text-right{text-align: left !important}
+.car-features .text-left{text-align:right !important}
+
+/* end confirm buying */
+
+/* start login form */
+
+.form-horizontal{direction: rtl}
+.form-horizontal .icon i{display: block;text-align: center;line-height: 2.3}
+.form-horizontal .icon .input-group-addon{background-color: #e9ecef;
+    border: 1px solid #ced4da;border-left: none;border-radius: 2px}
+/* end login form */
+
+.form-horizontal .icon .field-label-responsive{text-align: left;padding-top: 6px}
